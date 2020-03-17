@@ -5,6 +5,7 @@
 * [Features](#features)
 * [Usage](#usage)
 * [Examples](#examples)
+* [How it works](#how-it-works)
 * [Launch](#launch)
 
 ## General Info
@@ -132,6 +133,16 @@ ConsoleImageDisplay.exe "fox.jpg" -tc $approx(8) -ic $approx(8) -sf 0.3
 ```
 ![](images/example5.png)
 ---
+
+## How it works
+#### Writing to the console without stdout
+For this project, it is essential to be able to write to the console without using `printf()` or `std::cout`. To accomplish this, you can make use of the WinAPI which includes some functions that allow you to interface directly with a command prompt's text buffer. Using these functions, you are able to modify the size of the buffer, contents of the buffer, font and font size, and color table. Each of these functionalities are demonstrated in the `ConsoleWindow.h` and `ConsoleWindow.cpp` files.
+#### Reconstructing the image using 16 colors
+The next step for this project is to reduce the total number of colors used by an image to 16 or fewer. This is a very important step because the Windows command prompt only has space for 16 colors in its color table.
+![](/images/colors.png)
+To accomplish this, you can take several avenues. The selected solution for this project was to use ![dithering](https://en.wikipedia.org/wiki/Dither) and a ![custom-built algorithm](/src/ConsoleImage.h) to find the 16 best colors to use to faithfully reconstruct the image, however, other options are included as well. Some other options include: displaying the image in greyscale by using 16 shades of grey or mapping a greyscale image pixel value to an ascii character (demonstrated ![here](/src/ValToAscii.h)), dithering the image using an arbitrary color set, or implementing some combination of these two options.
+#### Loading the image into the console's text buffer
+The last step is to load the image into the console's text buffer. Part of this step requires the rescaling of the image to ensure that it fits within the maximum size of the command prompt window so that the user doesn't need to scroll to see the whole image. Once that is done, the pixel information can be translated into the text buffer fairly easily. This is demonstrated in the `ConsoleImage.h` and `ConsoleImage.cpp` files.
 
 ## Launch
 
