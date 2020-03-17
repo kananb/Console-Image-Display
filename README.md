@@ -1,5 +1,5 @@
 # Console Image Display
-![](/images/cid_scn1.png)
+![](/images/main_image.png)
 ## Table of Contents
 * [General Info](#general-info)
 * [Features](#features)
@@ -10,12 +10,17 @@
 An command line application that allows images to be displayed within the windows command prompt. This project was created to demonstrate the progression of my coding practices and ability.
 
 ## Features
-* Image and font scaling
-![](/images/cid_scn5.png)
-![](/images/cid_scn2.png)
-* Different display characteristics (pixels / ascii)
-* Multiple coloring algorithms
-* User-selected color sets
+### Image and font scaling
+![](/images/image_scale.png)
+![](/images/font_scale.png)
+### Different display characteristics (pixels / ascii)
+![](/images/pixels.png)
+![](/images/ascii.png)
+### Multiple coloring algorithms
+![](/images/dither.png)
+![](/images/nearest_value.png)
+### User-selected color sets
+![](/images/custom_colors.png)
 
 ## Launch
 
