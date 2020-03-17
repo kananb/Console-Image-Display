@@ -11,7 +11,8 @@ An command line application that allows images to be displayed within the window
 
 ## Features
 * Image and font scaling
-![](/images/cid_scn5.png) ![](/images/cid_scn2.png)
+![](/images/cid_scn5.png)
+![](/images/cid_scn2.png)
 * Different display characteristics (pixels / ascii)
 * Multiple coloring algorithms
 * User-selected color sets
