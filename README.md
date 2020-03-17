@@ -11,14 +11,11 @@ An command line application that allows images to be displayed within the window
 
 ## Features
 ### Image and font scaling
-![](/images/image_scale.png)
-![](/images/font_scale.png)
+![](/images/scaling.png)
 ### Different display characteristics (pixels / ascii)
-![](/images/pixels.png)
-![](/images/ascii.png)
+![](/images/image_type.png)
 ### Multiple coloring algorithms
-![](/images/dither.png)
-![](/images/nearest_value.png)
+![](/images/coloring_algorithms.png)
 ### User-selected color sets
 ![](/images/custom_colors.png)
 
