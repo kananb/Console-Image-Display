@@ -96,6 +96,22 @@ Approximate colors serve the purpose of reducing the total number of unique colo
 ###### Help information can be viewed by running the application with no parameters
 
 ## Examples
+```
+ConsoleImageDisplay.exe "fox.jpg" -ic $approx(16) -tc $grey -sf 0.2
+```
+![](images/example1.png)
+```
+ConsoleImageDisplay.exe "fox.jpg" -tc &bw -it a -am post -fs 10 -sf 0.1
+```
+![](images/example2.png)
+```
+ConsoleImageDisplay.exe "fox.jpg" -ic $approx(16) -tc $grey -sf 0.2
+```
+![](images/example3.png)
+```
+ConsoleImageDisplay.exe "fox.jpg" -ic $approx(16) -tc $grey -sf 0.2
+```
+![](images/example4.png)
 
 ## Launch
 
