@@ -1,5 +1,5 @@
 # Console Image Display
-![Image]()
+![](/images/cid_scn1.png)
 ## Table of Contents
 * [General Info](#general-info)
 * [Features](#features)
