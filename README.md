@@ -7,11 +7,10 @@
 * [Examples](#examples)
 * [Launch](#launch)
 
-
-## General Info ![top](#console-image-display)
+## General Info
 An command line application that allows images to be displayed within the windows command prompt. This project was created to demonstrate the progression of my coding practices and ability.
 
-## Features ![top](#console-image-display)
+## Features
 ### Image and font scaling
 ![](/images/scaling.png)
 ### Pixel and ascii viewing
@@ -21,7 +20,7 @@ An command line application that allows images to be displayed within the window
 ### User-selected color sets
 ![](/images/custom_colors.png)
 
-## Usage ![top](#console-image-display)
+## Usage
 See ![Launch](#launch) for setup instructions.
 
      *.exe "IMAGE" [OPTION]...
@@ -96,9 +95,9 @@ See ![Launch](#launch) for setup instructions.
 Approximate colors serve the purpose of reducing the total number of unique colors used in the image while preserving as much detail as possible. Use of approximate colors is necessary to reproduce images in the command prompt since only 16 colors are available for use when coloring the image.
 ###### Help information can be viewed by running the application with no parameters
 
-## Examples ![top](#console-image-display)
+## Examples
 
-## Launch ![top](#console-image-display)
+## Launch
 
 * Visual C++ 2017
 * [OpenCV 3.4.3](https://opencv.org/releases/page/3/)
