@@ -21,7 +21,7 @@ An command line application that allows images to be displayed within the window
 ![](/images/custom_colors.png)
 
 ## Usage
-See ![Launch](#launch) for setup instructions.
+See [Launch](#launch) for setup instructions.
 
      *.exe "IMAGE" [OPTION]...
 
@@ -140,3 +140,6 @@ ConsoleImageDisplay.exe "fox.jpg" -tc $approx(8) -ic $approx(8) -sf 0.3
 * WinAPI
 
 To run this program, download the executable from the bin folder or download the source files from the src folder and compile them with the Visual C++ compiler (found in the Windows SDK). If compiling locally, it is necessary to link opencv_world232.lib and include all of the required header files from the OpenCV download.
+
+
+#### [back to the top](#table-of-contents)
