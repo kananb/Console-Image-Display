@@ -100,18 +100,39 @@ Approximate colors serve the purpose of reducing the total number of unique colo
 ConsoleImageDisplay.exe "fox.jpg" -ic $approx(16) -tc $grey -sf 0.2
 ```
 ![](images/example1.png)
+</br>
 ```
-ConsoleImageDisplay.exe "fox.jpg" -tc &bw -it a -am post -fs 10 -sf 0.1
+ConsoleImageDisplay.exe "fox.jpg" -tc &bw -it a -am post -fs 10 -sf 0.06
 ```
 ![](images/example2.png)
+</br>
 ```
-ConsoleImageDisplay.exe "fox.jpg" -ic $approx(16) -tc $grey -sf 0.2
+ConsoleImageDisplay.exe "fox.jpg" -tc $bw -it a -am pre -fs 10 -sf 0.06
 ```
 ![](images/example3.png)
+</br>
 ```
-ConsoleImageDisplay.exe "fox.jpg" -ic $approx(16) -tc $grey -sf 0.2
+ConsoleImageDisplay.exe "fox.jpg" -ic colors.txt -tc colors.txt -sf 0.3
 ```
 ![](images/example4.png)
+</br>
+```
+ConsoleImageDisplay.exe "fox.jpg" -ic colors.txt -tc colors.txt -sf 0.3
+```
+##### colors.txt:
+```
+0,0,0
+255,255,255
+255,0,0
+0,255,0
+0,0,255
+255,255,0
+255,0,255
+0,255,255
+```
+![](images/example4.png)
+</br>
+
 
 ## Launch
 
