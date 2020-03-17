@@ -1,4 +1,4 @@
-# Console Image Display ![](/images/logo.jpg)
+# Console Image Display
 ![](/images/main_image.png)
 ## Table of Contents
 * [General Info](#general-info)
