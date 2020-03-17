@@ -114,11 +114,6 @@ ConsoleImageDisplay.exe "fox.jpg" -tc $bw -it a -am pre -fs 10 -sf 0.06
 ```
 ConsoleImageDisplay.exe "fox.jpg" -ic colors.txt -tc colors.txt -sf 0.3
 ```
-![](images/example4.png)
----
-```
-ConsoleImageDisplay.exe "fox.jpg" -ic colors.txt -tc colors.txt -sf 0.3
-```
 ##### colors.txt:
 ```
 0,0,0
@@ -131,6 +126,11 @@ ConsoleImageDisplay.exe "fox.jpg" -ic colors.txt -tc colors.txt -sf 0.3
 0,255,255
 ```
 ![](images/example4.png)
+---
+```
+ConsoleImageDisplay.exe "fox.jpg" -tc $approx(8) -ic $approx(8) -sf 0.3
+```
+![](images/example5.png)
 ---
 
 ## Launch
