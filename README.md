@@ -9,7 +9,7 @@
 * [Launch](#launch)
 
 ## General Info
-An command line application that allows images to be displayed within the windows command prompt. This project was created to demonstrate the progression of my coding practices and ability.
+A command line application that allows images to be displayed within the windows command prompt. This project was created to demonstrate the progression of my coding practices and ability.
 
 ## Features
 ### Image and font scaling
