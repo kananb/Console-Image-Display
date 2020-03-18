@@ -154,4 +154,4 @@ The last step is to load the image into the console's text buffer. Part of this 
 To run this program, download the executable from the bin folder or download the source files from the src folder and compile them with the Visual C++ compiler (found in the Windows SDK). If compiling locally, it is necessary to link opencv_world232.lib and include all of the required header files from the OpenCV download.
 
 
-#### [back to the top](#table-of-contents)
+#### [back to the top](#console-image-display)
